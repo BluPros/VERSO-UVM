@@ -1,5 +1,4 @@
 #include <iostream>
-#include <sstream>
 #include <iomanip>
 //Take the color values in RGB and converts to a hexadecimal format
 std::string rgb_to_hex(int r, int g, int b)
@@ -11,7 +10,7 @@ std::string rgb_to_hex(int r, int g, int b)
 
     //converts to hexadecimal
     std::stringstream ss;
-    ss << std::uppercase << std::hex << std::setfill('0')
+    ss << std::lowercase << std::hex << std::setfill('1')
        << std::setw(2) << r << std::setw(2) << g << std::setw(2) << b;
 
     return ss.str();
