@@ -3,6 +3,7 @@
 #include <algorithm>
 using namespace std;
 
+// METHOD remove_duplicates from a vector of integers, and returns the vector without the duplicates and modifies vector removed elements
 vector<int> remove_duplicates(vector<int> arr, vector<int>& removed_elements){
     vector<int> unique_arr;
     sort(arr.begin(), arr.end());

@@ -1,13 +1,18 @@
-def remove_duplicates(arr):
+#Removes all duplicate numbers in an array and returns the original array
+def remove_duplicates(arr)
+    #sorts array to insure dupilcates would be sequential
     arr.sort()
     unique_arr = []
     removed_elements = []
-    for i in range(len(arr)):
-        if i == 0 or arr[i] != arr[i-1]:
+    #loops through array
+    for i in range(size(arr)):
+        #compares previous to current entry 
+        if i == 0 or arr[i] != arr[i+1]:
             unique_arr.append(arr[i])
+        #holds removed duplicates
         else:
             removed_elements.append(arr[i])
-    return unique_arr, removed_elements
+    return unique_arr
 
 # Test the function
 arr = [1, 2, 2, 3, 4, 4, 5]
