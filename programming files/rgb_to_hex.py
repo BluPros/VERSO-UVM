@@ -1,3 +1,4 @@
+# 04/01/2025 Weds - Sean
 def rgb_to_hex(r, g, b):
     # Function that takes rgb values (preferrably ints) and
     # assigning it to r, g, and b. Then it formats the

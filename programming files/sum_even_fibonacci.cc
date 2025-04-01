@@ -10,7 +10,7 @@ int main()
     while (b < 4000000) {
       // if b is even, add to sum_even
         if (b % 2 == 0) {
-            sum_even += b;
+            sum_even = b; // bug added: SR
         }
       // create temp variable to store b
         int temp = b;

@@ -1,3 +1,5 @@
+// 04/01/2025 Weds - Sean
+
 public class rgb_to_hex {
     public static void main(String[] args) {
         // main file that sets r, g, and b values
