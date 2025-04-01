@@ -4,6 +4,7 @@ import java.util.List;
 
 public class remove_duplicates {
 
+    // removes duplicates from the first list, returning a copy of the list, second list of removed elements is modified
     public static List<Integer> removeDuplicates(List<Integer> arr, List<Integer> removedElements) {
         List<Integer> uniqueArr = new ArrayList<>();
         for (int i = 0; i < arr.size(); i++) {
