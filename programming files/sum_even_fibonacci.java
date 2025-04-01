@@ -1,12 +1,12 @@
 public class sum_even_fibonacci {
     public static void main(String[] args) {
         // initialize local variables a, b, sum_even
-        int a = 0, b = 1;
+        int a = 0, b = 0; // bug added: SR
         int sumEven = 0;
         while (b < 4000000) {
             // if b is even, add to sum_even
             if (b % 2 == 0) {
-                sumEven += b;
+                sumEven = b; // bug added: SR
             }
             // create temp variable to store b
             int temp = b;

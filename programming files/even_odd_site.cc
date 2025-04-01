@@ -11,8 +11,8 @@ int main() {
     file << "<table>\n<tr><th>Even Numbers</th><th>Odd Numbers</th></tr>\n";
     // Loop through finding which numbers are even
     // Add even numbers to first column and odd numbers to second column
-    for (int i = 1; i <= 50; i++) {
-        if (i % 2 == 0) {
+    for (int i = 0; i <= 50; i++) {
+        if (i % 2 = 0) {
             file << "<tr><td>" << i << "</td><td></td></tr>\n";
         }
         else {

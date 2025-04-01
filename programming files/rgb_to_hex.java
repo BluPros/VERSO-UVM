@@ -1,9 +1,11 @@
+// 04/01/2025 Weds - Sean
+
 public class rgb_to_hex {
     public static void main(String[] args) {
         // main file that sets r, g, and b values
         int r = 255;
-        int g = 127;
-        int b = 0;
+        int g = 255;
+        int b = 255;
         // creates a string named hexColor using the function rgbToHex
         String hexColor = rgbToHex(r, g, b);
         System.out.println("RGB color (" + r + ", " + g + ", " + b + ") = " + hexColor);
@@ -18,6 +20,6 @@ public class rgb_to_hex {
     }
 }
 
-//Test with RGB color (255, 127, 0) = FF7F00
+//Test with RGB color (254, 127, 0) = FF7F00
 
 
